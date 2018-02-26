@@ -3,9 +3,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   color: #000000;
+  background-color:#fff;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 }
 
 .main-header {
-  background-color:#000;
+  background-color:#06062A;
 }
 
 .header-bg {
@@ -23,7 +24,7 @@ body {
   height: 250px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../img/bg-h4.jpg");
+  background-image: url("../img/bg-header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,18 +33,18 @@ body {
 h1 {
   margin: 0 auto;
   text-transform: uppercase;
-  color: darkblue;
+  color: #fff;
   font-weight: 700;
   font-size: 70px;
   line-height: 250px;
   text-align: center;
-  text-shadow: #fff 0 0 15px;
- background-color: rgba(0, 0, 0, 0.8)
+  text-shadow: #4683f6 0 0 15px;
+ background-color: rgba(6, 6, 42, 0.8)
 }
 
 h2 {
 	 text-transform: uppercase;
-	 border-bottom: 2px solid #0500FD;
+	 border-bottom: 2px solid #4683f6;
 	 font-weight: 700;
      font-size: 25px;
 }
@@ -56,7 +57,7 @@ p {
 }
 
 em{
-	color:  #0500FD;
+	color:  #4683f6;
 }
 
 ul {
@@ -81,7 +82,7 @@ ul {
   top: 10px;
   left: 0;
   width: 23px;
-  border-bottom: 2px solid #0500FD;
+  border-bottom: 2px solid #4683f6;
 }
 
 img {
@@ -116,38 +117,8 @@ img {
 	height: 280px;
 }
 
-.number-1 {
-  background-image: url("../img/one.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   width: 43px;
-  height: 46px;
-  float: left;
-}
-
-.number-2 {
-  background-image: url("../img/two.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   width: 43px;
-  height: 46px;
-  float: left;
-}
-
-.number-3 {
-  background-image: url("../img/three.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   width: 43px;
-  height: 46px;
-  float: left;
-}
-
 .item {
-	margin-left: 60px;
+	margin-bottom: 30px;
 }
 
 a {
