@@ -1,0 +1,169 @@
+body {
+  min-width: 1000px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  background-color:#000;
+}
+
+.header-bg {
+  width: 980px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/bg-h4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: darkblue;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 250px;
+  text-align: center;
+  text-shadow: #fff 0 0 15px;
+ background-color: rgba(0, 0, 0, 0.8)
+}
+
+h2 {
+	 text-transform: uppercase;
+	 border-bottom: 2px solid #0500FD;
+	 font-weight: 700;
+     font-size: 25px;
+}
+
+p {
+	 font-weight: 600;
+     font-size: 18px;
+	 text-transform: none;
+	 text-align: justify;
+}
+
+em{
+	color:  #0500FD;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ li {
+  position: relative;
+  margin-bottom: 14px;
+  padding-left: 31px;
+  text-transform: lowercase;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+ li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 23px;
+  border-bottom: 2px solid #0500FD;
+}
+
+img {
+	margin-right: 20px;
+	border: 6px inset  #06062A;
+}
+
+.main-footer {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #06062A;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.main-footer p {
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.pictures {
+	float: left;
+}
+
+.ul {
+	width: 300px;
+	float: left;
+}
+
+.type {
+	height: 280px;
+}
+
+.number-1 {
+  background-image: url("../img/one.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   width: 43px;
+  height: 46px;
+  float: left;
+}
+
+.number-2 {
+  background-image: url("../img/two.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   width: 43px;
+  height: 46px;
+  float: left;
+}
+
+.number-3 {
+  background-image: url("../img/three.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   width: 43px;
+  height: 46px;
+  float: left;
+}
+
+.item {
+	margin-left: 60px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+ a:hover {
+  text-decoration: underline;
+}
+
+ a:active {
+  text-decoration: none;
+  opacity: 0.3;
+}
