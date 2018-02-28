@@ -109,11 +109,12 @@ img {
 	margin-bottom: 30px;
 }
 
-.ul {
+.container > ul {
 	width: 450px;
 	float: left;
 	min-height: 270px;
 }
+
 .item {
 	margin-bottom: 30px;
 }
