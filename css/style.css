@@ -106,16 +106,16 @@ img {
 
 .pictures {
 	float: left;
+	margin-bottom: 30px;
 }
 
 .ul {
 	width: 500px;
 	float: left;
+	
 }
 
-.type {
-	height: 280px;
-}
+
 
 .item {
 	margin-bottom: 30px;
