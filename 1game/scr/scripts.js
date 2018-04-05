@@ -83,7 +83,7 @@ function playGame()
     ". Осталось: " + guessesRemaining + ".";
 	if(playersGuess > mysteryNumber)
 	{
-		output.innerHTML = "...больше..." + gameState;
+		output.innerHTML = "Слишком большое" + gameState;
 		if (guessesRemaining < 1)
 		{
 			endGame();
@@ -91,7 +91,7 @@ function playGame()
 	}
 	else if(playersGuess < mysteryNumber)
 	{
-		output.innerHTML = "...меньше..." + gameState;
+		output.innerHTML = "Слишком маленькое" + gameState;
 		if (guessesRemaining < 1)
 		{
 			endGame();
