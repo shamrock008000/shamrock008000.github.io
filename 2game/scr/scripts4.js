@@ -107,6 +107,8 @@ output.innerHTML
 }
 button.removeEventListener("click", clickHandler, false);
 button.disabled = true;
-input.placeholder = "Конец игры!";
-input.disabled = true;
+inputХ.placeholder = "Конец ";
+inputХ.placeholder = "игры! ";
+inputХ.disabled = true;
+inputY.disabled = true;
 }
