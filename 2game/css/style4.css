@@ -1,0 +1,153 @@
+/*
+	Comment
+*/
+body {
+  min-width: 620px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #0d0635;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  color:#FFFF00;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: #4683f6 0 0 15px;
+}
+
+p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+input {
+    margin-left: 33px;
+	padding: 1px 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 2px;
+	background-color:#FFFF00 ;
+	color:  #0d0635;
+}
+input::-moz-placeholder { 
+    color:  #0d0635;
+ }
+input::-webkit-input-placeholder {
+    color:  #0d0635; 
+	}
+
+button {
+    margin-left: 33px;
+	width: 160px;
+	 height: 30px;
+	font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color:  #0d0635;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #ffff00;
+	background-color:#FFF;
+	-moz-border-radius:  5px; /* Firefox */
+-webkit-border-radius:  5px; /* Safari 4 */
+border-radius:  5px; /* IE 9, Safari 5, Chrome */
+box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+user-select: none;
+}
+button:hover {
+	  border: 2px solid #FF0000;
+	 color: #FF0000;
+}
+button:active {
+background-color:#FF0000;
+	 color:  #ffff00;
+}
+
+.stage
+{
+width: 600px;
+height: 600px;
+position: relative;
+}
+
+.bg {
+  width: 600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.gun {
+	width: 40px;
+  height: 40px;
+  background-image: url("../img/gun.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:  absolute;
+  left: 280px;
+  top: 540px;
+}
+
+.missile {
+	width: 20px;
+  height: 20px;
+  background-image: url("../img/missile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:  absolute;
+  left: 290px;
+  top: 480px;
+}
+
+.monster {
+	width: 40px;
+    height: 40px;
+    position:  absolute;
+	left: 280px;
+    top: 40px;
+   background-image: url("../img/monster.png");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+display: block;
+}
+
+.explosion {
+	width: 40px;
+height: 40px;
+position:  absolute;
+top: 40px;
+left: 160px;
+background-image: url(../img/monsterA.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: none;
+}
