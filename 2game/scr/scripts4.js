@@ -98,10 +98,15 @@ explosion.style.display = "block";
 monster.style.display = "none";
 explosion.style.left = alienX + "px";
 explosion.style.top = alienY + "px";
+
 }
 else
 {
 output.innerHTML
 = "Вы проиграли! " +  "Вторжение началось!";
 }
+button.removeEventListener("click", clickHandler, false);
+button.disabled = true;
+input.placeholder = "Конец игры!";
+input.disabled = true;
 }
