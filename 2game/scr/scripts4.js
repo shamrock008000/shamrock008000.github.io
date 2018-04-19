@@ -98,7 +98,6 @@ explosion.style.display = "block";
 monster.style.display = "none";
 explosion.style.left = alienX + "px";
 explosion.style.top = alienY + "px";
-
 }
 else
 {
@@ -108,7 +107,7 @@ output.innerHTML
 button.removeEventListener("click", clickHandler, false);
 button.disabled = true;
 inputХ.placeholder = "Конец ";
-inputХ.placeholder = "игры! ";
+inputY.placeholder = "игры! ";
 inputХ.disabled = true;
 inputY.disabled = true;
 }
