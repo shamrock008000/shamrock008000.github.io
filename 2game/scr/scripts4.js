@@ -96,6 +96,7 @@ if(gameWon)
 output.innerHTML = "Победа! Вы спасли планету! " + "Израсходовано ракет: " + shotsMade + ".";
 explosion.style.display = "block";
 monster.style.display = "none";
+missile.style.display = "none";
 explosion.style.left = alienX + "px";
 explosion.style.top = alienY + "px";
 }
