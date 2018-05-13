@@ -25,7 +25,7 @@ monster.style.left = alienX + "px";
 monster.style.top = alienY + "px";
 gun.style.left = guessX + "px";
 missile.style.left = guessX + "px";
-missile.style.top = guessY + "px";
+missile.style.top = 520 - guessY + "px";
 
 }
 function clickHandler()
