@@ -34,11 +34,6 @@ var imagesuse = [];
 	imagesuse[3] = "2ручка.png";
     imagesuse[4] = "3ср.png";
 
-var blockedPathMessages = [];
-blockedPathMessages[0] = "Дальше прохода нет.";
-blockedPathMessages[1] = "Кажется, тут нужны ключи.";
-blockedPathMessages[7] = "Дальше прохода нет.";
-
 var items = ["инструкцию к титану", "номер", "ключи", "лом"];
 var itemLocations = [0, 2, 5, 6];
 
@@ -265,8 +260,8 @@ function useItem()
 		   {
 		   	gameMessage="Вы опустили полку! Кажется, на ней что-то лежит.";
 			   backpack.splice(backpackIndexNumber, 1);
-			   items = ["инструкцию к титану", "номер", "ручку от радио" , "ключи", "лом"];
-               itemLocations = [0, 2, 3, 5, 6];
+			   items.push( "ручку от радио");
+			   itemLocations.push(3);
 			   image.src = "images/2ручка.png";
 	            images[mapLocation] = imagesuse[mapLocation];
 			   gamestatus += 1;
