@@ -265,7 +265,7 @@ function useItem()
 		   {
 		   	gameMessage="Вы опустили полку! Кажется, на ней что-то лежит.";
 			   backpack.splice(backpackIndexNumber, 1);
-			   items = ["инструкцию", "номер", "ручку от радио" , "ключи", "лом"];
+			   items = ["инструкцию к титану", "номер", "ручку от радио" , "ключи", "лом"];
                itemLocations = [0, 2, 3, 5, 6];
 			   image.src = "images/2ручка.png";
 	            images[mapLocation] = imagesuse[mapLocation];
