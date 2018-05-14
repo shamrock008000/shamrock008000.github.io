@@ -265,6 +265,7 @@ function useItem()
 			   image.src = "images/2ручка.png";
 	            images[mapLocation] = imagesuse[mapLocation];
 			   gamestatus += 1;
+			   
 		   }
 		   else
 		   {
@@ -273,6 +274,7 @@ function useItem()
 		   break;
    }
 }
+   render();
 }
 
 function render()
